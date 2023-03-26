@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: steelblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
+
+p {
+    padding: 0;
+}
+
+aside {
+    width: 400px;
+    height: auto;
+    background-color: #224477;
+    padding: 40px;
+    border: 2px solid steelblue;
+    img { width: 200px; }
+}
+aside h2 {
+    position: absolute;
+    top: 50px;
+    right: 75px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Class Selectors */
+
+box {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #477947;
+    color: #474747;
+    border: 1px solid rgba(0,0,0,.1);
+    aside {
+        width: 27em;
+        text-align: center;
+    }
+}
+
