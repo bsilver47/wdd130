@@ -27,15 +27,6 @@ h1 {
     text-align: center;
 }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-    float: right;
-}
-
 p {
     padding: 0;
 }
@@ -46,20 +37,13 @@ aside {
     background-color: #224477;
     padding: 40px;
     border: 2px solid steelblue;
-    img { width: 200px; }
 }
 
 aside h2 {
     position: absolute;
     top: 15px;
     right: 75px;
-}
 
-footer {
-    text-align: center;
-    border-top: ridge steelblue;
-    padding: 2rem;
-}
 
 /* Class Selectors */
 
@@ -86,13 +70,39 @@ header, .grid, footer {
 }
 
 main {
+    max-width: 840px;
     grid-column: 2/3;
     margin: 1rem;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 aside {
     width: 20rem;
     position: relative;
+    margin: 1rem;
     grid-column: 1/2;
     grid-row: 1/2;
 }
+
+aside img { 
+    width: 200px;
+    height: auto;
+}
+
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    border-top: ridge steelblue;
+    padding: 2rem;
+}
+
