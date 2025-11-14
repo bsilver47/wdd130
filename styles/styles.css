@@ -33,7 +33,17 @@ p {
 
 
 /* Class Selectors */
-
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #477947;
+    color: #474747;
+    border: 1px solid rgba(0,0,0,.1);
+    aside {
+        width: 27rem;
+        text-align: center;
+    }
+}
 
 
 header, .grid, footer {
