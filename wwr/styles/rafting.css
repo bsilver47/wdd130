@@ -27,7 +27,12 @@ body {
     position: relative;
 }
 
-.hero h1, article {
+.hero h1 {
+    position: absolute;
+    /* need to set on top of hero .img */
+}
+
+.hero article {
     position: absolute;
     /* need to set on top of hero .img */
 }
