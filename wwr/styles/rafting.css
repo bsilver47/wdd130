@@ -23,6 +23,19 @@ body {
     padding: 20px;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero h1, article {
+    position: absolute;
+    /* need to set on top of hero .img */
+}
+
+.hero article img {
+    float: right;
+}
+
 .hero img {
     display: block;
     width: 100%;
