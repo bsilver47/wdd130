@@ -13,7 +13,11 @@
     --nav-hover-background-color: #5F5980;
 }
 
-/* This is the CSS page for the Site Plan for the Rafting Page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boarder-box;
+}
 
 body {
     font-family: var(--paragraph-font);
