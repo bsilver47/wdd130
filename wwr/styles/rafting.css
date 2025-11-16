@@ -2,9 +2,7 @@
 /* color: var(--primary-color); */
 :root {
     --primary-color: #2D7DD2;
-    --secondary-color: #97CC04;
     --accent1-color: #EEB902;
-    --accent2-color: #474647;
 
     --heading-font: 'copperplate';
     --paragraph-font: 'papyrus';
