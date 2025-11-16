@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Storm&display=swap');
-
 /* This is a list of variables. The following is an example of using a variable.  */
 /* color: var(--primary-color); */
 :root {
@@ -9,8 +6,8 @@
     --accent1-color: #EEB902;
     --accent2-color: #474647;
 
-    --heading-font: 'copperplate', cursive;
-    --paragraph-font: 'papyrus', cursive;
+    --heading-font: 'copperplate';
+    --paragraph-font: 'papyrus';
 
     --nav-background-color: #010101;
     --nav-link-color: #0E34A0;
