@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<!-- This is the Homepage. The last update to the page was made 11/15/25 -->
+<!-- This is the Homepage. The last update to the page was made 11/26/25 -->
 
     <head>
         <link rel="stylesheet" href="styles/rafting.css">
@@ -35,13 +35,18 @@
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="email"><br>
                 <label for="msp">Message Purpose:</label>
-                <input type="radio" id="msp" name="msp"><br>
-                    <option value="gen">General Inquiry</option><br>
-                    <option value="res">Reservation Question</option><br>
-                    <option value="sug">Website Suggestion</option><br>
+                <div>
+                    <input type="radio" id="gen" name="msp" value="gen" />
+                    <label for="gen">General Inquiry</label>
+                    <input type="radio" id="res" name="msp" value="res" />
+                    <label for="gen">Reservation Question</label>
+                    <input type="radio" id="sug" name="msp" value="sug" />
+                    <label for="sug">Website Suggestion</label>
+                </div>
                 <label for="msg">Message</label><br>
                 <textarea id="msg" name="msg" rows="4"></textarea><br>
-                <label><input type="checkbox" id="sub" name="sub"> value="sub"> Please subscribe me to the monthly newsletter</label><br>
+                <input type="checkbox" id="sub" name="sub">
+                    <option value="sub">Please subscribe me to the monthly newsletter</option><br>
                 <button type="submit">Submit</button>
             </form>
     
