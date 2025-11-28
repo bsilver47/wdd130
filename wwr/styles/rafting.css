@@ -1,7 +1,7 @@
 /* This is a list of variables. The following is an example of using a variable.  */
 /* color: var(--primary-color); */
 :root {
-    --primary-color: #2D7DD2;
+    --primary-color: #2B6CB2;
     --accent1-color: #EEB902;
 
     --heading-font: 'copperplate';
