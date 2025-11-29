@@ -65,6 +65,7 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
+    color: var(--nav-link-color, #FFFFFF);
     display: flex;
     font-size: 1.2rem;
 }
