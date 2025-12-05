@@ -58,6 +58,10 @@ body {
     gap: 5px;
 }
 
+.grid img {
+    padding: 7px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
