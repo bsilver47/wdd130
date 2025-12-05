@@ -51,6 +51,11 @@ body {
     height:auto;
 }
 
+.flexcontainer {
+    display: flex;
+    align-items: center;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
