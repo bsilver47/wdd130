@@ -55,6 +55,7 @@ body {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
+    gap: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
