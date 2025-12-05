@@ -31,7 +31,7 @@ body {
 
 .hero h1 {
     position: absolute;
-    /* need to set on top of hero .img */
+    bottom: 10%;
 }
 
 .hero article {
