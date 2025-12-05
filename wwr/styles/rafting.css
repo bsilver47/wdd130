@@ -56,6 +56,10 @@ body {
     align-items: center;
 }
 
+.flexcontainer {
+    flex: 1;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
