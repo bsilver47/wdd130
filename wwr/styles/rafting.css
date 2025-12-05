@@ -31,7 +31,8 @@ body {
 
 .hero h1 {
     position: absolute;
-    bottom: 10%;
+    bottom: 10px;
+    right: 50%;
 }
 
 .hero article {
