@@ -111,6 +111,7 @@ nav a:hover {
 table, th, td {
     border: 1px outset var(--nav-hover-link-color);
     border-collapse: collapse;
+}
 
 .socialmedia a {
     text-decoration: none;
